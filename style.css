@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 5;
+}
+
+nav{
+    width: 25rem;
+    float: left;
+    background-color: #F9F9FA;
+}
+
+header{
+    flex:content;
+    flex-grow: 1;
+    flex-flow: wrap;
+    flex-direction: column;
+    background: #F9F9FA ;
+}
+
+aside ul{
+    flex-flow: row;
+    flex-direction: row;
+    height: 325px;
+    width: 160px;
+    background-color: #F9F9FA;
+
+}
+
+aside ol{
+    flex-direction: row;
+    height: 220px;
+    width: 160px;
+    background-color: #F9F9FA;
+}
+
+
+.main{
+    text-align: right;
+    height: 20rem;
+    background-color: #F9F9FA;
+}
+
+.none{
+    background-color: #363853;
+    height: 5rem;
+}
+
+.sect{
+    text-align: right;
+    background-color: #F9F9FA;
+    height: 10rem;
+}
